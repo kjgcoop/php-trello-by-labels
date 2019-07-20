@@ -1,0 +1,21 @@
+{
+    "name": "kjgcoop/trello-label-package",
+    "description": "Library to get Trello tasks organized by label instead of by board",
+    "type": "library",
+    "require": {
+        "cdaguerre/php-trello-api": "^0.9.3"
+    },
+    "require-dev": {
+        "cdaguerre/php-trello-api": "^0.9.3"
+    },
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "KJ Coop",
+            "email": "git@kjcoop.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "GetTrelloLabels\\": "src/" }
+    }
+}
