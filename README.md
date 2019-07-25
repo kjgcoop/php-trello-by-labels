@@ -29,10 +29,8 @@ A populated batch represents an array of all your labels, each containing the re
  * A TrelloCard object has a name, board name and list of labels.
 
 Any given card may appear any number of times.
- * If a card has no labels, it won't appear in the data structure.
+ * If a card has no labels, it won't appear in the data structure. While Trello boards have a list of its labels, this generates its list by looping through existing cards.
  * If a card has more than one label applied, the card will appear in memory once per label.
-
-A label without any cards won't appear - while Trello boards have a list of its labels, this generates its list by looping through existing cards.
 
 ## Prerequisites
 
