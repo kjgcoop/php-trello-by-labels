@@ -8,7 +8,7 @@
     "require-dev": {
         "cdaguerre/php-trello-api": "^0.9.3"
     },
-    "license": "GPLv3",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "KJ Coop",
