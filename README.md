@@ -20,7 +20,7 @@ foreach ($batch->get_labels() as $label) {
 }
 ```
 
-The assumes that you only want to deal in one user's boards.
+The script assumes that you only want to deal in one user's boards.
 
 ## Notes on Data
 
